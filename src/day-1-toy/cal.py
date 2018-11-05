@@ -14,3 +14,9 @@
 # docs for the calendar module closely.
 
 import sys
+import calendar
+import datetime
+
+calendar.setfirstweekday((calendar.SUNDAY))
+
+print(calendar.calendar(datetime.MAXYEAR))
