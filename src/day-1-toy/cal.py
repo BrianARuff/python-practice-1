@@ -17,6 +17,6 @@ import sys
 import calendar
 import datetime
 
-calendar.setfirstweekday((calendar.SUNDAY))
 
 print(calendar.calendar(datetime.MAXYEAR))
+print(sys.argv[1])
