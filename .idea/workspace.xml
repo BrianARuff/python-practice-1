@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1619e0e9-8b7e-4bb5-a8af-aa64eec6610b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/day-1-toy/scope.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/day-1-toy/scope.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day-1-toy/slice.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/day-1-toy/slice.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,24 +21,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="foo" value="2" />
-          <entry key="py" value="13" />
+          <entry key="py" value="14" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4111" />
+          <entry key="py" value="4380" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4111" />
+          <entry key="Python" value="4380" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -83,14 +83,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day-1-toy/scope.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="589">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <marker date="1541466215104" expanded="true" signature="436:458" ph="..." />
+                <marker date="1541466612278" expanded="true" signature="462:468" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/day-1-toy/slice.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -115,6 +124,7 @@
         <option value="$PROJECT_DIR$/src/day-1-toy/obj.py" />
         <option value="$PROJECT_DIR$/src/day-1-toy/printf.py" />
         <option value="$PROJECT_DIR$/src/day-1-toy/scope.py" />
+        <option value="$PROJECT_DIR$/src/day-1-toy/slice.py" />
       </list>
     </option>
   </component>
@@ -167,28 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.scope">
-    <configuration name="lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Intro-Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/day-1-toy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day-1-toy/lists.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.slice">
     <configuration name="modules" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Intro-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,20 +262,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="slice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Intro-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/day-1-toy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day-1-toy/slice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.lists" />
       <item itemvalue="Python.modules" />
       <item itemvalue="Python.obj" />
       <item itemvalue="Python.printf" />
       <item itemvalue="Python.scope" />
+      <item itemvalue="Python.slice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.slice" />
         <item itemvalue="Python.scope" />
         <item itemvalue="Python.printf" />
         <item itemvalue="Python.obj" />
         <item itemvalue="Python.modules" />
-        <item itemvalue="Python.lists" />
       </list>
     </recent_temporary>
   </component>
@@ -436,11 +446,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day-1-toy/scope.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="589">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <marker date="1541466215104" expanded="true" signature="436:458" ph="..." />
+            <marker date="1541466612278" expanded="true" signature="462:468" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day-1-toy/slice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
