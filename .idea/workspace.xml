@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1619e0e9-8b7e-4bb5-a8af-aa64eec6610b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/day-1-toy/tuples.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/day-1-toy/tuples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day-1-toy/args.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/day-1-toy/args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day-1-toy/cal.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/day-1-toy/cal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/days-2-4-adv/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/days-2-4-adv/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/days-2-4-adv/room.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/days-2-4-adv/room.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,103 +18,70 @@
     <session id="1911697358">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="foo" value="2" />
-          <entry key="py" value="15" />
+          <entry key="py" value="22" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="15" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4802" />
+          <entry key="py" value="6156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4802" />
+          <entry key="Python" value="6156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day-1-toy/modules.py">
+        <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/adv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="38">
+              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/room.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="91" selection-start-line="11" selection-start-column="91" selection-end-line="11" selection-end-column="91" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1541536877110" expanded="true" signature="111:112" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day-1-toy/obj.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="757">
-              <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
-              <folding>
-                <marker date="1541465623202" expanded="true" signature="347:451" ph="..." />
-                <marker date="1541465623202" expanded="true" signature="608:1147" ph="..." />
-                <marker date="1541465623202" expanded="true" signature="742:822" ph="..." />
-                <marker date="1541465623202" expanded="true" signature="1326:2030" ph="..." />
-                <marker date="1541465623202" expanded="true" signature="1657:1787" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day-1-toy/printf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day-1-toy/scope.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <marker date="1541466612278" expanded="true" signature="462:468" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day-1-toy/slice.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/day-1-toy/tuples.py">
+        <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/player.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+            <state relative-caret-position="209">
+              <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
               <folding>
-                <marker date="1541473936958" expanded="true" signature="574:618" ph="..." />
+                <element signature="e#85#95#0" expanded="true" />
+                <marker date="1541536906990" expanded="true" signature="126:127" ph="..." />
               </folding>
             </state>
           </provider>
@@ -124,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/day-1-toy/cal.py" />
         <option value="$PROJECT_DIR$/src/day-1-toy/comp.py" />
         <option value="$PROJECT_DIR$/src/day-1-toy/datatypes.py" />
         <option value="$PROJECT_DIR$/src/day-1-toy/dicts.py" />
@@ -133,11 +103,15 @@
         <option value="$PROJECT_DIR$/src/day-1-toy/hello.py" />
         <option value="$PROJECT_DIR$/src/day-1-toy/lists.py" />
         <option value="$PROJECT_DIR$/src/day-1-toy/modules.py" />
-        <option value="$PROJECT_DIR$/src/day-1-toy/obj.py" />
         <option value="$PROJECT_DIR$/src/day-1-toy/printf.py" />
         <option value="$PROJECT_DIR$/src/day-1-toy/scope.py" />
         <option value="$PROJECT_DIR$/src/day-1-toy/slice.py" />
         <option value="$PROJECT_DIR$/src/day-1-toy/tuples.py" />
+        <option value="$PROJECT_DIR$/src/day-1-toy/args.py" />
+        <option value="$PROJECT_DIR$/src/day-1-toy/obj.py" />
+        <option value="$PROJECT_DIR$/src/day-1-toy/cal.py" />
+        <option value="$PROJECT_DIR$/src/days-2-4-adv/room.py" />
+        <option value="$PROJECT_DIR$/src/days-2-4-adv/player.py" />
       </list>
     </option>
   </component>
@@ -150,7 +124,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,12 +140,13 @@
               <item name="Intro-Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Intro-Python" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day-1-toy" type="462c0819:PsiDirectoryNode" />
+              <item name="days-2-4-adv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,8 +164,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tuples">
-    <configuration name="obj" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.player">
+    <configuration name="cal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Intro-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -203,7 +177,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day-1-toy/obj.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day-1-toy/cal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,7 +186,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="printf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="player" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Intro-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,11 +194,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/day-1-toy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/days-2-4-adv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day-1-toy/printf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/days-2-4-adv/player.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,7 +207,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scope" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="room" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Intro-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,11 +215,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/day-1-toy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/days-2-4-adv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day-1-toy/scope.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/days-2-4-adv/room.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,19 +271,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.obj" />
-      <item itemvalue="Python.printf" />
-      <item itemvalue="Python.scope" />
       <item itemvalue="Python.slice" />
       <item itemvalue="Python.tuples" />
+      <item itemvalue="Python.cal" />
+      <item itemvalue="Python.room" />
+      <item itemvalue="Python.player" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.player" />
+        <item itemvalue="Python.room" />
+        <item itemvalue="Python.cal" />
         <item itemvalue="Python.tuples" />
         <item itemvalue="Python.slice" />
-        <item itemvalue="Python.scope" />
-        <item itemvalue="Python.printf" />
-        <item itemvalue="Python.obj" />
       </list>
     </recent_temporary>
   </component>
@@ -330,13 +304,9 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18625894" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18864179" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49960285" weight="0.329927" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50039715" side_tool="true" weight="0.329927" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.329927" />
@@ -344,27 +314,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49960285" weight="0.329927" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039715" side_tool="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day-1-toy/cal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="e#579#589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/day-1-toy/comp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -386,9 +350,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day-1-toy/foo">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day-1-toy/foo" />
     <entry file="file://$PROJECT_DIR$/src/day-1-toy/foo.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -399,9 +361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <marker date="1541460003165" expanded="true" signature="250:255" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -426,60 +385,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day-1-toy/modules.py">
+    <entry file="file://$PROJECT_DIR$/src/day-1-toy/tuples.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day-1-toy/obj.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
-          <folding>
-            <marker date="1541465623202" expanded="true" signature="347:451" ph="..." />
-            <marker date="1541465623202" expanded="true" signature="608:1147" ph="..." />
-            <marker date="1541465623202" expanded="true" signature="742:822" ph="..." />
-            <marker date="1541465623202" expanded="true" signature="1326:2030" ph="..." />
-            <marker date="1541465623202" expanded="true" signature="1657:1787" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day-1-toy/printf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day-1-toy/scope.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <marker date="1541466612278" expanded="true" signature="462:468" ph="..." />
-          </folding>
+        <state relative-caret-position="665">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day-1-toy/slice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day-1-toy/tuples.py">
+    <entry file="file://$PROJECT_DIR$/src/day-1-toy/scope.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        <state relative-caret-position="589">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day-1-toy/printf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day-1-toy/modules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day-1-toy/args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day-1-toy/obj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding>
-            <marker date="1541473936958" expanded="true" signature="574:618" ph="..." />
+            <marker date="1541521950432" expanded="true" signature="88:91" ph="..." />
+            <marker date="1541521950432" expanded="true" signature="347:451" ph="..." />
+            <marker date="1541521950432" expanded="true" signature="608:1147" ph="..." />
+            <marker date="1541521950432" expanded="true" signature="742:822" ph="..." />
+            <marker date="1541521950432" expanded="true" signature="1326:2029" ph="..." />
+            <marker date="1541521950432" expanded="true" signature="1657:1787" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day-1-toy/cal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="e#579#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/adv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/room.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="91" selection-start-line="11" selection-start-column="91" selection-end-line="11" selection-end-column="91" />
+          <folding>
+            <marker date="1541536877110" expanded="true" signature="111:112" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="e#85#95#0" expanded="true" />
+            <marker date="1541536906990" expanded="true" signature="126:127" ph="..." />
           </folding>
         </state>
       </provider>

@@ -19,4 +19,3 @@ import datetime
 
 
 print(calendar.calendar(datetime.MAXYEAR))
-print(sys.argv[1])
