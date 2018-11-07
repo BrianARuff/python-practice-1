@@ -41,14 +41,15 @@ room['treasure'].s_to = room['narrow']
 
 # Make a new player object that is currently in the 'outside' room.
 
-player = Player('Brian', room['outside'].room_name, room['outside'].room_description)
-print(player)
+p1 = Player('Brian', room['outside'].room_name, room['outside'].room_description)
+print(p1.room_name)
 
 # Write a loop that:
 #
 # * Prints the current room name
 # * Prints the current description (the textwrap module might be useful here).
 # * Waits for user input and decides what to do.
+
 
 def set_player_direction(player):
     print(player.room_name)
@@ -77,10 +78,22 @@ def set_player_direction(player):
             print("You must enter one of the following directions [n, s, e, w] ")
 
 
-set_player_direction(player)
+def play_game():
+    playing_game = True
+    while playing_game:
+        direction = set_player_direction(p1)
+        if p1.room_name == 'Outside Cave Entrance' and direction == 'n':
+            p1.room_name = room['foyer'].room_name
+            p1.room_description = room['outside'].room_description
+            print(p1)
+
+
+play_game()
 
 #
 # If the user enters a cardinal direction, attempt to move to the room there.
 # Print an error message if the movement isn't allowed.
 #
 # If the user enters "q", quit the game.
+
+
