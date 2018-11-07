@@ -6,7 +6,7 @@ from room import Room
 
 class Player(Room):
 
-    def __init__(self, player_name, room_name, room_description, player_hp=100, player_attack=10):
+    def __init__(self, player_name, room_name="Outside Cave Entrance", room_description="North of you, the cave mount beckons", player_hp=100, player_attack=10):
         self.player_name = player_name
         super().__init__(room_name, room_description)
         self.player_hp = player_hp
