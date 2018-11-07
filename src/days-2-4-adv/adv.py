@@ -50,6 +50,35 @@ print(player)
 # * Prints the current description (the textwrap module might be useful here).
 # * Waits for user input and decides what to do.
 
+def set_player_direction(player):
+    print(player.room_name)
+    print(player.room_description)
+    setting_direction = True
+    while setting_direction:
+        try:
+            direction = input("Enter a direction [n, s, e, w] ")
+            if direction == "n":
+                setting_direction = False
+                print(direction)
+                return direction
+            elif direction == "s":
+                setting_direction = False
+                print(direction)
+                return direction
+            elif direction == "e":
+                setting_direction = False
+                print(direction)
+                return direction
+            elif direction == "w":
+                setting_direction = False
+                print(direction)
+                return direction
+        except ValueError:
+            print("You must enter one of the following directions [n, s, e, w] ")
+
+
+set_player_direction(player)
+
 #
 # If the user enters a cardinal direction, attempt to move to the room there.
 # Print an error message if the movement isn't allowed.
