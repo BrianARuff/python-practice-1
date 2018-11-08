@@ -15,7 +15,7 @@ class Items:
             return self.items_list
 
     def add_item(self, item: dict):
-        # Ensure item doesn't exist
+        # Ensure item doesn't exist already
         if item in self.get_items():
             print(f"\nVALUE ERROR: {item} already exist\n")
 

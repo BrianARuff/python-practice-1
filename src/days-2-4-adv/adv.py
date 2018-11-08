@@ -5,8 +5,10 @@ import sys
 # Declare all the rooms
 
 room = {
-    'outside': Room("Outside Cave Entrance",
-                    "North of you, the cave mount beckons"),
+    'outside': Room(
+        "Outside Cave Entrance",
+        "North of you, the cave mount beckons",
+        ),
 
     'foyer': Room("Foyer", """Dim light filters in from the south. Dusty
 passages run north and east."""),
@@ -23,20 +25,16 @@ chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south."""),
 }
 
-room['outside'].add_item({"Wand": """ 13 inch, Elm Wood, Phoenix Core """})
-room['foyer'].add_item({"Necklace": """ Wards off evil spirits """})
-print(room['outside'])
-print(room['foyer'])
-
 #
 # Main
 #
 
 # Make a new player object that is currently in the 'outside' room. DONE
 
-# p1 = Player('Brian', room['outside'].room_name, room['outside'].room_description)
+# p2 = Player('John')
+# print(p2)
 
-p_name = input("Player Name: ")
+p_name = "Brian"
 
 p1 = Player(p_name)
 
@@ -49,8 +47,8 @@ p1 = Player(p_name)
 
 
 def set_player_direction(player):
-    print("___PLAYER_ROOM___: " + player.room_name)
-    print("___PLAYER_ROOM DESCRIPTION___: " + player.room_description)
+    print("__PLAYER_ROOM__: " + player.room_name)
+    print("\n__PLAYER_ROOM DESCRIPTION__: " + player.room_description)
 
 # Get input from user to set as direction to be returned.
 
@@ -82,6 +80,8 @@ def set_player_direction(player):
 
 
 def play_game():
+    room['outside'].add_item({'Wand': 'This will save someone\'s life if used properly...'})
+    print(room['outside'].get_items())
 
     while True:
 
@@ -132,6 +132,7 @@ def play_game():
         elif p1.room_name == "Treasure Chamber" and direction == "s":
             p1.room_name = room['foyer'].room_name
             p1.room_description = room['foyer'].room_description
+
 
 
 play_game()
