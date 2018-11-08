@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1619e0e9-8b7e-4bb5-a8af-aa64eec6610b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/.idea/dictionaries/brianruff.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/days-2-4-adv/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/brianruff.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/brianruff.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/days-2-4-adv/adv.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/days-2-4-adv/adv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/days-2-4-adv/item.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/days-2-4-adv/room.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/days-2-4-adv/room.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,24 +29,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="foo" value="2" />
-          <entry key="py" value="24" />
+          <entry key="py" value="26" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="24" />
+          <entry key="Python" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="11133" />
+          <entry key="dummy" value="1" />
+          <entry key="py" value="13713" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="11133" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="13713" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -52,26 +56,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/adv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="63" column="53" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
+            <state relative-caret-position="192">
+              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <marker date="1541707697992" expanded="true" signature="2327:2329" ph="..." />
+                <marker date="1541711750173" expanded="true" signature="2327:2329" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/room.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+            <state relative-caret-position="240">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
-                <marker date="1541561562998" expanded="true" signature="110:111" ph="..." />
+                <marker date="1541711811592" expanded="true" signature="12:17" ph="..." />
+                <marker date="1541711811592" expanded="true" signature="53:159" ph="..." />
+                <marker date="1541711811592" expanded="true" signature="272:418" ph="..." />
               </folding>
             </state>
           </provider>
@@ -89,6 +95,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/room.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -96,7 +111,11 @@
       <find>x</find>
       <find>flag</find>
       <find>[0]</find>
+      <find>items_dict</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,9 +138,11 @@
         <option value="$PROJECT_DIR$/src/day-1-toy/args.py" />
         <option value="$PROJECT_DIR$/src/day-1-toy/obj.py" />
         <option value="$PROJECT_DIR$/src/day-1-toy/cal.py" />
-        <option value="$PROJECT_DIR$/src/days-2-4-adv/room.py" />
         <option value="$PROJECT_DIR$/src/days-2-4-adv/player.py" />
+        <option value="$PROJECT_DIR$/src/days-2-4-adv/item.py" />
+        <option value="$PROJECT_DIR$/src/days-2-4-adv/room.py" />
         <option value="$PROJECT_DIR$/src/days-2-4-adv/adv.py" />
+        <option value="$PROJECT_DIR$/src/days-2-4-adv/items.py" />
       </list>
     </option>
   </component>
@@ -174,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.adv">
+  <component name="RunManager" selected="Python.room">
     <configuration name="adv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Intro-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,6 +230,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day-1-toy/cal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="item" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Intro-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/days-2-4-adv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/days-2-4-adv/items.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,41 +301,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tuples" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Intro-Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/day-1-toy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day-1-toy/tuples.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.tuples" />
       <item itemvalue="Python.cal" />
       <item itemvalue="Python.room" />
       <item itemvalue="Python.player" />
       <item itemvalue="Python.adv" />
+      <item itemvalue="Python.item" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.adv" />
         <item itemvalue="Python.room" />
+        <item itemvalue="Python.item" />
+        <item itemvalue="Python.adv" />
         <item itemvalue="Python.player" />
         <item itemvalue="Python.cal" />
-        <item itemvalue="Python.tuples" />
       </list>
     </recent_temporary>
   </component>
@@ -451,33 +472,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/adv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="63" column="53" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <marker date="1541707697992" expanded="true" signature="2327:2329" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/room.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          <folding>
-            <marker date="1541561562998" expanded="true" signature="110:111" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/player.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
           <folding>
             <marker date="1541561649872" expanded="true" signature="128:129" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/adv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1541711750173" expanded="true" signature="2327:2329" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/room.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/days-2-4-adv/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <marker date="1541711811592" expanded="true" signature="12:17" ph="..." />
+            <marker date="1541711811592" expanded="true" signature="53:159" ph="..." />
+            <marker date="1541711811592" expanded="true" signature="272:418" ph="..." />
           </folding>
         </state>
       </provider>
