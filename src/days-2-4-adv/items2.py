@@ -1,8 +1,6 @@
 class Items:
-    def __init__(self, items_list=None):
-        if items_list is None:
-            items_list = []
-            self.items_list = items_list
+    def __init__(self):
+        self.items_list = []
 
     def __str__(self):
         return f"{self.items_list}"
