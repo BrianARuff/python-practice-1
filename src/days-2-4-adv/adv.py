@@ -48,7 +48,8 @@ p1 = Player(p_name)
 
 def set_player_direction(player):
     print("__PLAYER_ROOM__: " + player.room_name)
-    print("\n__PLAYER_ROOM DESCRIPTION__: " + player.room_description)
+    print("__PLAYER_ROOM DESCRIPTION__: " + player.room_description)
+    print(player.get_items())
 
 # Get input from user to set as direction to be returned.
 
@@ -66,6 +67,9 @@ def set_player_direction(player):
     elif direction == "w":
         return direction
 
+    elif direction == "r":
+        return direction
+
     elif direction == "q":
         print("Thanks for playing. I hope you had fun!")
         sys.exit()
@@ -80,22 +84,20 @@ def set_player_direction(player):
 
 
 def play_game():
-    room['outside'].add_item({'Wand': 'This will save someone\'s life if used properly...'})
-    print(room['outside'].get_items())
 
     while True:
 
         # Get Direction from set_player_direction function
         direction = set_player_direction(p1)
 
-        if direction == "q":
-            print("Thanks for playing. I hope you had fun!")
-            break
+        if direction == "r":
+            print(p1.get_items())
 
         # Handle Outside to Foyer
         if p1.room_name == 'Outside Cave Entrance' and direction == 'n':
             p1.room_name = room['foyer'].room_name
             p1.room_description = room['foyer'].room_description
+            p1.items_list = room['foyer'].add_item({'Wand': "Useful for many things..."})
 
         # Handle Foyer back to Outside
         elif p1.room_name == "Foyer" and direction == "s":

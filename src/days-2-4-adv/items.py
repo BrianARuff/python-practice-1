@@ -9,19 +9,18 @@ class Items:
 
     def get_items(self):
         # Test for items in room
-        if len(self.items_list) > 0:
-            print("There are no items in this room.")
-        else:
-            return self.items_list
+        return self.items_list
 
     def add_item(self, item: dict):
         # Ensure item doesn't exist already
         if item in self.get_items():
-            print(f"\nVALUE ERROR: {item} already exist\n")
+            return self.items_list
 
         # Ensure type is a dict and then add item if it is
         elif type(item) == dict:
             self.items_list.append(item)
+            print(self.items_list)
+
         # Print type error if it is not.
         else:
             print(f"\nTYPE ERROR: {item} is not of type dict\n")
