@@ -19,7 +19,6 @@ class Items:
         # Ensure type is a dict and then add item if it is
         elif type(item) == dict:
             self.items_list.append(item)
-            print(self.items_list)
 
         # Print type error if it is not.
         else:

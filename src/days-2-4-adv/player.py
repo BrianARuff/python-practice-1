@@ -18,3 +18,8 @@ class Player(Room):
     def __str__(self):
         return "< PLAYER OBJECT player_name: %s, room_name: %s, room_description: %s" \
                " room_items: %s >" % (self.player_name, self.room_name, self.room_description, self.items_list)
+
+    def pick_up_items_in_room(self):
+        self.player_items.append(self.items_list)
+        print(self.items_list)
+        print(self.player_items)
