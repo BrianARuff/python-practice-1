@@ -4,10 +4,10 @@
 
 class Player:
 
-    def __init__(self, name, room, items):
+    def __init__(self, name, room):
         self.name = name
         self.room = room
-        self.items = items
+        self.items = []
 
     def __str__(self):
         return f"name: {self.name}, room: {self.room}, items: {self.items}"
