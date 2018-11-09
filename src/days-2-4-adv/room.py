@@ -10,5 +10,5 @@ class Room:
         self.items = items
 
     def __str__(self):
-        return f"name: {self.name}, description: {self.description}"
+        return f"name: {self.name}, description: {self.description}, items: {self.items}"
 

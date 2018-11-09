@@ -10,5 +10,5 @@ class Player:
         self.items = items
 
     def __str__(self):
-        return f"name: {self.name}, room: {self.room}, items: {self.room}"
+        return f"name: {self.name}, room: {self.room}, items: {self.items}"
 

@@ -21,9 +21,13 @@ chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""", []),
 }
 
+items = {
+    'sword': Item('sword').get_item(),
+    'wand': Item('wand').get_item(),
+    'treasure': Item('treasure').get_item()
+}
+
 p1 = Player('Brian', 'outside', [])
+p1.items.append(items['sword'])
 
 print(p1)
-
-for val in room:
-    print(room[val])
