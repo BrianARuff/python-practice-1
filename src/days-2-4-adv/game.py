@@ -48,12 +48,19 @@ def play_game():
         print("Player Items: " + ', '.join(player.items))
         print("\n")
 
-        choice = input("Choose a direction to travel, press q to quit, i for inventory, weapon name to pick up >> ").strip().lower()
+        choice = input("Choose a direction to travel, press q to quit, i for inventory, weapon name to pick up,"
+                       " [drop item_name] to drop item in different room >> ").strip().lower()
+        print(choice.split())
+
         # Quit Game
         if choice == 'q':
             break
-        # Add item to inventory from room
+        # Drop item in whatever room you are in
+        if choice.split()[0] == 'drop' and choice.split()[1] in player.items:
+            player.items.remove(choice.split()[1])
+            room[player.room].items.append(choice.split()[1])
 
+        # Add item to inventory from room
         if choice in room[player.room].items:
             room[player.room].items.remove(choice)
             player.items.append(choice)
