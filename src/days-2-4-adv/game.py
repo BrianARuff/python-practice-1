@@ -40,30 +40,55 @@ def play_game():
     player_name = input("Player name >> ").strip()
     player = Player(player_name, 'outside')
     invalid_option = "Invalid direction"
+
+    def player_items_string():
+        if len(player.items) < 1:
+            return "No Items In Inventory"
+        elif len(player.items) == 1:
+            return str(player.items[0]).capitalize()
+        else:
+            return ", ".join(player.items).capitalize()
+
+    def room_items_string():
+        if len(room[player.room].items) < 1:
+            return "No Items In Room"
+        elif len(room[player.room].items) == 1:
+            return str(room[player.room].items).capitalize()
+        else:
+            return ", ".join(room[player.room].items).capitalize()
+
     while True:
+        # Print Room Info along with Player info
         print("\n")
-        print("Room: " + room[player.room].name)
-        print("Description: " + room[player.room].description)
-        print("Items: " + ', '.join(room[player.room].items))
-        print("Player Items: " + ', '.join(player.items))
+        print("Current Room Name: " + room[player.room].name)
+        print("Room Description: " + room[player.room].description)
+        print("Room Items: " + room_items_string())
+        print("Player Name: " + player.name)
+        print("Player Items: " + player_items_string())
         print("\n")
 
         choice = input("Choose a direction to travel, press q to quit, i for inventory, weapon name to pick up,"
                        " [drop item_name] to drop item in different room >> ").strip().lower()
-        print(choice.split())
+        print("\n")
+        print("Choice: " + str(choice.split()))
 
         # Quit Game
         if choice == 'q':
             break
+
         # Drop item in whatever room you are in
         if choice.split()[0] == 'drop' and choice.split()[1] in player.items:
             player.items.remove(choice.split()[1])
             room[player.room].items.append(choice.split()[1])
+        elif choice.split()[0] == 'drop' and choice.split()[1] not in player.items:
+            print("Item Not In Inventory")
 
-        # Add item to inventory from room
+        # Add item to inventory from current room
         if choice in room[player.room].items:
             room[player.room].items.remove(choice)
             player.items.append(choice)
+        elif choice not in room[player.room].items and choice.split()[0] != "drop":
+            print("Item Not In Room")
 
         if choice in ['n', 's', 'e', 'w', 'north', 'south', 'east', 'west']:
             # Outside to Foyer
